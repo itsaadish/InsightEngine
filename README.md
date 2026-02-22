@@ -87,9 +87,10 @@ npm run dev
 - **Data Caching**: Integrating a caching layer (e.g., Redis) for high-frequency institutional analytics to minimize database hits for static timeframe data.
 - **Real-time Updates**: Implementing WebSockets to push real-time updates to the dashboard when new data is ingested. For eg. Let's a teacher added a new lesson the dashboard should update the total lessons count and the trend chart should update accordingly. 
 - **Granular Permissions**: Implementing a role-based access control (RBAC) system to allow for more granular permissions for different roles. For eg. A teacher should only be able to see their own data, while a principal should be able to see all data.
-
-
-## 🔒 Security
-- **Protected Routes**: Dashboard and Teacher views are guarded by JWT authentication for secure administrative access.
+- **Indexing Database**: Adding indexes to the database to improve query performance.
+- **Multiple Replicas**: Adding multiple replicas of the database, backend and frontend to handle high traffic.
+- **Load Balancing**: Adding a load balancer to distribute traffic across multiple instances of the backend and frontend.
+- **Adding Pagination for teachers List**: Adding pagination to the teachers list to handle large datasets
+- **Generating Reports**: Generating reports for the dashboard in different formats like PDF, Excel, etc. Using microservices architecture to decouple the report generation logic from the main backend using message brokers to handle high throughput.
 
 
