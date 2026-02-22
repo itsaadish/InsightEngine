@@ -48,7 +48,7 @@ A data-driven analytics dashboard for school administrators to monitor teacher p
 ## ⚙️ Setup & Installation
 
 ### 1. Prerequisite
-- Node.js (v18+)
+- Node.js (v24+)
 - PostgreSQL database (Local or Supabase)
 
 ### 2. Backend Setup
